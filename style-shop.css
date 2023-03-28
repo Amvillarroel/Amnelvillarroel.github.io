@@ -200,7 +200,6 @@ footer .copyright {
 
 @media screen and (max-width: 767px) {
     #imagen-footer {
-        position: absolute;
         display: none;
     }
 }
