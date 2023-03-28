@@ -41,9 +41,6 @@
         height: auto;
     }
     
-    #imagen-footer {
-        display: none;
-    }
 }
 
 /* Contenido*/
@@ -201,3 +198,9 @@ footer .copyright {
     text-align: center;   
 }
 
+@media screen and (max-width: 767px) {
+    #imagen-footer {
+        position: absolute;
+        display: none;
+    }
+}
